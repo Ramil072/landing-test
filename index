@@ -1,0 +1,94 @@
+Рамиль Наконечный, [22.04.2025 9:56]
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI для техподдержки | IZIMAIND</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Header -->
+  <header class="w-full py-6 px-6 lg:px-20 flex justify-between items-center border-b">
+    <h1 class="text-xl font-bold">IZIMAIND: AI для техподдержки</h1>
+    <a href="#form" class="text-sm bg-black text-white py-2 px-4 rounded-full hover:bg-gray-800 transition">Оставить заявку</a>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="px-6 lg:px-20 py-16 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+    <div>
+      <h2 class="text-4xl md:text-5xl font-bold leading-tight mb-6">AI для улучшения техподдержки<br>в вашей компании</h2>
+      <p class="text-lg mb-8 text-gray-600">
+        Каждый запрос в техподдержку требует времени. С нашим AI-поиском ваши сотрудники смогут мгновенно найти решения проблем, анализируя базу данных и старые запросы. 
+        <strong>Эффективность и скорость</strong> — наш приоритет.
+      </p>
+      <a href="#form" class="bg-black text-white py-3 px-6 rounded-full text-sm hover:bg-gray-800 transition">Протестировать бесплатно</a>
+    </div>
+    <div>
+      <!-- Заменить на своё изображение с ноутбуком -->
+      <img src="https://via.placeholder.com/600x400/000000/FFFFFF?text=Изображение+с+поисковым+AI+и+логотипом+IZIMAIND" alt="AI search demo" class="rounded-xl shadow-lg w-full h-auto">
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="px-6 lg:px-20 py-16 bg-gray-50">
+    <h3 class="text-3xl font-semibold text-center mb-12">Как это работает?</h3>
+    <p class="text-lg text-center text-gray-600 mb-12">
+      Наш AI-поиск интегрируется в вашу систему техподдержки и анализирует все запросы и решения. Он моментально подбирает ответы на вопросы, используя накопленный опыт и данные, что существенно ускоряет обслуживание и повышает удовлетворенность клиентов.
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+      <div>
+        <img src="https://cdn-icons-png.flaticon.com/512/2784/2784460.png" class="w-12 h-12 mx-auto mb-4" />
+        <h4 class="font-bold text-lg mb-2">Мгновенный ответ</h4>
+        <p class="text-gray-600">Поиск по запросам клиентов в реальном времени.</p>
+      </div>
+      <div>
+        <img src="https://cdn-icons-png.flaticon.com/512/3039/3039439.png" class="w-12 h-12 mx-auto mb-4" />
+        <h4 class="font-bold text-lg mb-2">Автоматизация процессов</h4>
+        <p class="text-gray-600">Минимизация нагрузки на сотрудников техподдержки.</p>
+      </div>
+      <div>
+        <img src="https://cdn-icons-png.flaticon.com/512/3524/3524659.png" class="w-12 h-12 mx-auto mb-4" />
+        <h4 class="font-bold text-lg mb-2">Безопасность данных</h4>
+        <p class="text-gray-600">Все данные надежно защищены, доступ только для авторизованных пользователей.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Security Information Section -->
+  <section class="px-6 lg:px-20 py-16 bg-white">
+    <h3 class="text-3xl font-semibold text-center mb-12">Безопасность и конфиденциальность</h3>
+    <p class="text-lg text-center text-gray-600 mb-12">
+      Мы понимаем важность безопасности в техподдержке. Наше решение соответствует международным стандартам защиты данных, а также обеспечивает надежное шифрование и контроль доступа, чтобы ваши данные всегда оставались под защитой.
+    </p>
+  </section>
+
+Рамиль Наконечный, [22.04.2025 9:56]
+<!-- Call to Action (Form) -->
+  <section id="form" class="px-6 lg:px-20 py-16 bg-gray-50">
+    <div class="max-w-xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-6">Оставьте заявку на демо</h3>
+      <p class="text-gray-600 mb-8">Запустим демо-версию AI-поиска для вашей техподдержки и подберем решение под ваши нужды.</p>
+      <form class="space-y-4">
+        <input type="text" placeholder="Имя" class="w-full border px-4 py-3 rounded-md" />
+        <input type="email" placeholder="Email" class="w-full border px-4 py-3 rounded-md" />
+        <input type="text" placeholder="Компания" class="w-full border px-4 py-3 rounded-md" />
+        <button type="submit" class="w-full bg-black text-white py-3 rounded-md hover:bg-gray-800 transition">Отправить</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-sm text-gray-500 py-8 border-t">
+    © 2025 IZIMAIND. Все права защищены.
+  </footer>
+
+</body>
+</html>
